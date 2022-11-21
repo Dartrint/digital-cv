@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+  #job-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-2,
+  .container-3 {
+    margin-left: 0px;
+  }
+  .timeline td {
+    display: block;
+  }
+}
