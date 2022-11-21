@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    width: auto;
+  }
+  .name {
+    display: none;
+  }
+  #target,
+  #personal-info {
+    width: 60%;
+  }
+  .column {
+    margin: 0px 20px;
+    width: calc(50% - 40px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .project-item {
+    width: 80%;
+  }
+  .project-item {
+    margin: 0px 20px;
+    width: calc(33.33% - 40px);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #footer {
+    padding: auto;
+    height: 100%;
+  }
+}

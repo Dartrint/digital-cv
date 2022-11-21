@@ -1,0 +1,75 @@
+@media screen and (max-width: 767px) {
+  #banner {
+    width: 100%;
+  }
+  .row {
+    display: block;
+    flex-direction: column-reverse;
+  }
+  .container {
+    display: block;
+    flex-direction: column;
+  }
+  .row-certificate {
+    display: block;
+    flex-direction: column;
+  }
+  .certificate-item {
+    display: block;
+    flex-direction: column;
+  }
+  .certificate-item:nth-child(odd) .certificate-content {
+    border-right: 0px solid #d6c08d;
+  }
+  .project-item {
+    width: 80%;
+    display: block;
+    flex-direction: column;
+  }
+  .name {
+    display: none;
+  }
+  #about .container {
+    padding: 15px;
+  }
+  .container h1 {
+    padding: 0;
+    text-align: center;
+  }
+  #about #target,
+  #about #personal-info {
+    width: 100%;
+  }
+  #target p {
+    padding: 0;
+  }
+  #personal-info .info {
+    padding: 0;
+  }
+  #job-info .column {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+  }
+  section > .container {
+    padding: 15px;
+  }
+  .certificate-item {
+    padding: 15px;
+  }
+  .certificate-item,
+  .certificate-item > * {
+    width: 100%;
+  }
+  .project-item {
+    margin: 0;
+    width: 100%;
+  }
+  #footer ul {
+    flex-direction: column;
+  }
+  #footer ul li {
+    margin: 0;
+    justify-content: center;
+  }
+}
